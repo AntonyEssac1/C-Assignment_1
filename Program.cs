@@ -1,4 +1,5 @@
-﻿using System.Reflection.Metadata;
+﻿using System.Linq.Expressions;
+using System.Reflection.Metadata;
 using System.Runtime.Intrinsics.X86;
 
 namespace C__Session_1
@@ -51,6 +52,36 @@ namespace C__Session_1
             #endregion
 
 
+            //Write code that divides 10 by 0 inside a try block, catches the exception, prints "Cannot divide by zero", and then prints "Done" in a finally block.
+            try
+            {
+
+                Console.WriteLine("Enter U First Number :");
+                int intput1 = int.Parse(Console.ReadLine());
+                Console.WriteLine("Enter U Second Number :");
+                int intput2 = int.Parse(Console.ReadLine());
+
+                int result = intput1 / intput2 ;
+                Console.WriteLine($"The Result Is {result}");
+            }
+            catch
+            {
+                Console.WriteLine("Cannot divide by zero");
+            }
+            finally
+            {
+
+                Console.WriteLine("Done");
+            }
+        
+
+
+
+
+
+
+        }
+
         }
     }
-}
+
