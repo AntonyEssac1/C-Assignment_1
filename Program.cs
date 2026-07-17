@@ -1,4 +1,5 @@
-﻿using System.Linq.Expressions;
+﻿using System.Drawing;
+using System.Linq.Expressions;
 using System.Reflection.Metadata;
 using System.Runtime.CompilerServices;
 using System.Runtime.Intrinsics.X86;
@@ -142,7 +143,24 @@ namespace C__Session_1
 
             #endregion
 
+            #region
 
+            //Declare an int? year = null;. Print whether it has a value, then assign it 2023 and print its value.
+
+            //int? year = null;
+            //Console.WriteLine(year);       // Nullable
+            //year = 123;
+            //Console.WriteLine(year);
+
+
+            //Declare a string? reviewer = null;. Print whether it is null.
+
+            //string? reviewer = null;
+            //Console.WriteLine(reviewer == null);
+
+
+
+            #endregion
 
         }
 
