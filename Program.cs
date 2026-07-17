@@ -1,6 +1,8 @@
 ﻿using System.Linq.Expressions;
 using System.Reflection.Metadata;
+using System.Runtime.CompilerServices;
 using System.Runtime.Intrinsics.X86;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace C__Session_1
 {
@@ -97,12 +99,53 @@ namespace C__Session_1
 
             #endregion
 
+            #region
 
+            //Given string yearText = "2023";, convert it using int.Parse().Then given string badText = "abc";, use int.TryParse() to safely try converting it, and print "Invalid number" if it fails.
+
+            //int.parse()
+
+            //string yearText = "2023";
+            //int year = int.Parse(yearText);
+            //Console.WriteLine($"The Result Is {year}");
+
+            //int.Tryparse()
+
+            //string badText = "123";
+
+            //int number;
+            //bool success = int.TryParse(badText, out number);
+
+            //if (success)
+            //{
+            //    Console.WriteLine(number);
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Invalid number");
+            //}
+
+
+            //Given int pages = 464;, convert it into a string using ToString() and print its type using GetType() to prove it's now a string.
+
+            //int pages = 464;
+            //string results = pages.ToString();
+            //Console.WriteLine(results.GetType);
+
+            //Declare int copies = 100;. Box it into an object variable, then unbox it back into a new int variable, and print both.
+
+            //int copies = 100;
+            //object obg = copies;
+            //Console.WriteLine(obg);   //boxing
+            //Console.WriteLine("-------------------------");
+            //int copies2 = (int)obg;  //unboxing
+
+            #endregion
 
 
 
         }
 
-}
+    }
     }
 
