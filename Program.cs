@@ -75,6 +75,27 @@ namespace C__Session_1
             //}
             #endregion
 
+            #region
+
+            //Declare an int pages = 300; then store it in a double variable without using a cast.
+
+            //int pages = 300;
+            //double doubleDataType = pages;
+            //Console.WriteLine(doubleDataType);
+
+            //Declare a double price = 49.99; then convert it into an int using a cast.
+
+            //double price = 49.99;
+            //int inttype = (int)price;
+            //Console.WriteLine(inttype);
+
+            //Given string pagesText = "464";, convert it into an int using the Convert class.
+
+            //string pagesText = "123";
+            //int numbers = Convert.ToInt32(pagesText);
+            //Console.WriteLine(numbers);
+
+            #endregion
 
 
 
@@ -82,6 +103,6 @@ namespace C__Session_1
 
         }
 
-    }
+}
     }
 
