@@ -173,7 +173,19 @@ namespace C__Session_1
 
             #endregion
 
+            #region
+            //Using title from the previous question, use ?? to print "Untitled" if title is null.Then use ??= to assign title the value "Untitled" only if it's still null.
 
+            string title = "title";
+            title ??= "Untitled";                                 // title
+            Console.WriteLine($"The Result Is [ {title} ]");
+
+
+            string title = null;
+            title ??= "Untitled"                                   // untitled;
+            Console.WriteLine($"The Result Is [ {title} ]");
+
+            #endregion
 
         }
 
