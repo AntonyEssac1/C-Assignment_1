@@ -176,15 +176,28 @@ namespace C__Session_1
             #region
             //Using title from the previous question, use ?? to print "Untitled" if title is null.Then use ??= to assign title the value "Untitled" only if it's still null.
 
-            string title = "title";
-            title ??= "Untitled";                                 // title
-            Console.WriteLine($"The Result Is [ {title} ]");
+            //string title = "title";
+            //title ??= "Untitled";                                 // title
+            //Console.WriteLine($"The Result Is [ {title} ]");
 
 
-            string title = null;
-            title ??= "Untitled"                                   // untitled;
-            Console.WriteLine($"The Result Is [ {title} ]");
+            //string title = null;
+            //title ??= "Untitled"                                   // untitled;
+            //Console.WriteLine($"The Result Is [ {title} ]");
 
+            #endregion
+
+            #region
+
+            //Given string? name = "Ahmed"; (you are sure it's not null here), assign it to a non-nullable string confirmedName using the ! operator.
+
+            //string? name = "Ahmed";
+            //string confirmedName = name!;
+            //Console.WriteLine(confirmedName);
+
+
+
+            
             #endregion
 
         }
