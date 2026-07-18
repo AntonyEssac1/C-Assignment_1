@@ -148,19 +148,32 @@ namespace C__Session_1
             //Declare an int? year = null;. Print whether it has a value, then assign it 2023 and print its value.
 
             //int? year = null;
-            //Console.WriteLine(year);       // Nullable
+            //Console.WriteLine(year);       // Nullable      ؟ ---> nullable
             //year = 123;
             //Console.WriteLine(year);
 
 
             //Declare a string? reviewer = null;. Print whether it is null.
 
-            //string? reviewer = null;
+            //string reviewer = null;
             //Console.WriteLine(reviewer == null);
 
 
 
             #endregion
+
+            #region
+
+            //Declare a Book? book = null;. Use?.to safely read book.Title without crashing the program, and print the result.
+
+            //Book? book2 = null;
+            //Console.WriteLine(book2?.title);
+
+
+
+            #endregion
+
+
 
         }
 
